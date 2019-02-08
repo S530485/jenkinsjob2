@@ -1,7 +1,7 @@
 node{
   stage('clone'){
     git 'https://github.com/S530485/jenkinsjob2.git'
-    sh 'git checkout -b feature'
+    git branch: 'feature'
   }
   stage('directory'){
     sh 'cd classroom/'
