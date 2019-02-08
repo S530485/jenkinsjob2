@@ -4,5 +4,6 @@ node{
   }
   stage('directory'){
     sh 'cd classroom/'
+    sh 'mvn compile'
   }
 }
